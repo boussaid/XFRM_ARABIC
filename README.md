@@ -1,7 +1,7 @@
 # Arabic translation XenForo Resource Manager 2.1
 
-Based on XenForo Resource Manager 2.1.0 RC2.<br />
-Relased: 27/01/2019.
+Based on XenForo Resource Manager 2.1.0<br />
+Relased: 02/02/2019.
 
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [XenForo community](https://xenforo.com/community/resources/arabic-language-for-xenforo-resource-manager.5825/)
 
