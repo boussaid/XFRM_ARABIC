@@ -1,13 +1,12 @@
 # Arabic translation XenForo Resource Manager 2.X
 
-Based on XenForo Resource Manager 2.2.0<br />
-Relased: 01/10/2020.
+Based on XenForo Resource Manager 2.3.0<br />
+Relased: 30/08/2024.
 
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [XenForo community](https://xenforo.com/community/resources/arabic-language-for-xenforo-resource-manager.5825/)
 
 **This translation is safe to use it in production.**
 
-Work progress: ![Progress](https://progress-bar.dev/100/?title=completed)
 
 ## Translation Features
 The translation is released in *opensource*, so its download is available freely :blush: .

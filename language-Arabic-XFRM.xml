@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XFRM" base_version_id="2020070" export_version="2">
+<language title="Arabic" date_format="j F Y" date_short_format="n/y" date_short_recent_format="n/j" time_format="H:i" currency_format="{symbol}{value}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XFRM" base_version_id="2030070" export_version="2">
   <phrase title="activity_summary_def.xfrm_latest_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[المتجر: أحدث المنتجات]]></phrase>
   <phrase title="activity_summary_def.xfrm_latest_reviews" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[المتجر: أحدث التعليقات]]></phrase>
   <phrase title="activity_summary_def_desc.xfrm_latest_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[يقدم قسما يعرض أحدث المنتجات في البريد الإلكتروني لملخص النشاط. يمكن تصفية المنتجات وفقاً لمعايير مختلفة.]]></phrase>
@@ -25,6 +25,7 @@
   <phrase title="api_scope.resource_rating_write" addon_id="XFRM" version_id="2010011" version_string="2.1.0 Preview 1"><![CDATA[يغطي إنشاء وتحديث وحذف تقييمات/مراجعات المنتج.]]></phrase>
   <phrase title="api_scope.resource_read" addon_id="XFRM" version_id="2010011" version_string="2.1.0 Preview 1"><![CDATA[يغطي عرض المنتجات ومحتواها.]]></phrase>
   <phrase title="api_scope.resource_write" addon_id="XFRM" version_id="2010011" version_string="2.1.0 Preview 1"><![CDATA[يغطي إنشاء وتحديث وحذف المنتجات ومحتوياتها.]]></phrase>
+  <phrase title="cron_entry.xfrmCacheStats" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[المتجر: التخزين المؤقت لإحصائيات المتجر]]></phrase>
   <phrase title="cron_entry.xfrmViews" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[المتجر: تحديث مجاميع المشاهدة]]></phrase>
   <phrase title="manage_watched_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إدارة المنتجات المتابعة]]></phrase>
   <phrase title="member_stat.xfrm_most_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الأكثر طرحا للمنتجات]]></phrase>
@@ -33,7 +34,9 @@
   <phrase title="mod_log.resource_delete_hard" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تم حذف المنتج نهائيا]]></phrase>
   <phrase title="mod_log.resource_delete_soft" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تمت إزالة المنتج من العرض للعامة (السبب: {reason})]]></phrase>
   <phrase title="mod_log.resource_edit" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تم تعديل المنتج]]></phrase>
-  <phrase title="mod_log.resource_feature" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تم تمييز المنتج]]></phrase>
+  <phrase title="mod_log.resource_feature_create" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تمييز منتج]]></phrase>
+  <phrase title="mod_log.resource_feature_delete" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[إلغاء تمييز منتج]]></phrase>
+  <phrase title="mod_log.resource_feature_edit" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تعديل تمييز منتج]]></phrase>
   <phrase title="mod_log.resource_move" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تمت إزالة المنتج]]></phrase>
   <phrase title="mod_log.resource_prefix" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تم تحرير بادئة المنتج من '{old}']]></phrase>
   <phrase title="mod_log.resource_rating_delete_hard" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تم حذف مراجعة المنتج نهائيا]]></phrase>
@@ -45,7 +48,6 @@
   <phrase title="mod_log.resource_reassign" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[إعادة تعيين مالك المنتج (من {from})]]></phrase>
   <phrase title="mod_log.resource_unapprove" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[عدم الموافقة على المنتج]]></phrase>
   <phrase title="mod_log.resource_undelete" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[إسترجاع المنتج من الحذف]]></phrase>
-  <phrase title="mod_log.resource_unfeature" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[إلغاء تمييز المنتج]]></phrase>
   <phrase title="mod_log.resource_update_approve" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[الموافقة على تحديث المنتج]]></phrase>
   <phrase title="mod_log.resource_update_attachment_deleted" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[تم حذف مرفق تحديث المنتج]]></phrase>
   <phrase title="mod_log.resource_update_delete_hard" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[تم حذف تحديث المنتج نهائيا]]></phrase>
@@ -107,7 +109,7 @@
   <phrase title="option_explain.xfrmResourcesPerPage" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[عدد المنتجات التي سيتم إدراجها في كل صفحة، بما في ذلك صفحات نظرة عامة على المنتجات والأقسام.]]></phrase>
   <phrase title="option_explain.xfrmReviewRequired" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إذا تم تمكينه، فإنه سيتوجب على المستخدمين تقديم مراجعة عند تقييم أي منتج.]]></phrase>
   <phrase title="option_explain.xfrmReviewVoting" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[يتحكم هذا في ما إذا كان يمكن للزوار التصويت على ما إذا كانت مراجعة المنتج مفيدة أم لا. يمكن أن يسمح هذا للتعليقات المفيدة أن تصبح أكثر ظهوراً. في حالة التمكين، يمكنك اختيار جعل التصويت على الردود إيجابياً فقط (تأييد). لن يتمكن أصحاب المنتجات من التصويت على المراجعات لمنتجاتهم الخاصة.]]></phrase>
-  <phrase title="option_explain.xfrmUpdateMaxLength" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[الحد الأقصى لعدد الأحرف التي يمكن أن تكون في تحديث أو وصف المنتج. وهذا يشمل BB code. استخدم 0 لتعطيل هذا الحد.]]></phrase>
+  <phrase title="option_explain.xfrmUpdateMaxLength" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[الحد الأقصى لعدد الحروف التي يمكن أن يتضمنها تحديث أو وصف المنتج. ويشمل ذلك BB code. قد يؤدي تعيين هذه القيمة إلى عدد كبير جداً أو تعطيلها بالكامل إلى حدوث مشكلات في الأداء ولا يُنصح بذلك.]]></phrase>
   <phrase title="option_group.xfrm" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[مدير منتجات XenForo]]></phrase>
   <phrase title="option_group_description.xfrm" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الخيارات التي تتحكم في إضافة مدير المنتجات.]]></phrase>
   <phrase title="permission.resource_add" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إنشاء المنتجات]]></phrase>
@@ -144,13 +146,13 @@
   <phrase title="stop_watching_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[التوقف عن متابعة المنتجات]]></phrase>
   <phrase title="thread_type.resource" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[منتج]]></phrase>
   <phrase title="thread_type_plural.resource" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[منتجات]]></phrase>
-  <phrase title="widget_def.xfrm_featured_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[المتجر: المنتجات المميزة]]></phrase>
   <phrase title="widget_def.xfrm_latest_reviews" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[المتجر: آخر المراجعات]]></phrase>
   <phrase title="widget_def.xfrm_new_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[المتجر: المنتجات الجديدة]]></phrase>
+  <phrase title="widget_def.xfrm_resource_statistics" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[المتجر: إحصائيات المتجر]]></phrase>
   <phrase title="widget_def.xfrm_top_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[المتجر: أفضل المنتجات]]></phrase>
-  <phrase title="widget_def_desc.xfrm_featured_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[يعرض المنتجات المميزة.]]></phrase>
   <phrase title="widget_def_desc.xfrm_latest_reviews" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[لعرض أحدث مراجعات المنتجات.]]></phrase>
   <phrase title="widget_def_desc.xfrm_new_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[لعرض أحدث المنتجات التي تم تحديثها.]]></phrase>
+  <phrase title="widget_def_desc.xfrm_resource_statistics" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[يعرض إحصائيات مدير المنتجات]]></phrase>
   <phrase title="widget_def_desc.xfrm_top_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[يعرض المنتجات الأعلى تقييما.]]></phrase>
   <phrase title="widget_pos.xfrm_category_above_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[أقسام المتجر: أعلى المنتجات]]></phrase>
   <phrase title="widget_pos.xfrm_category_sidenav" addon_id="XFRM" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[أقسام المتجر: التنقل الجانبي]]></phrase>
@@ -160,7 +162,9 @@
   <phrase title="widget_pos_desc.xfrm_category_sidenav" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[يظهر داخل التنقل الجانبي في صفحات قسم المتجر. يمكن لقوالب الأدوات المقدمة في هذا الموضع استخدام كيان الفئة الحالي في البرامتر <code>{$context.category}</code>.]]></phrase>
   <phrase title="widget_pos_desc.xfrm_overview_above_resources" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[يظهر أعلى قائمة المنتجات في صفحة نظرة عامة على المتجر.]]></phrase>
   <phrase title="widget_pos_desc.xfrm_overview_sidenav" addon_id="XFRM" version_id="2000070" version_string="2.0.0"><![CDATA[يعرض داخل التنقل الجانبي في صفحة نظرة عامة على المتجر.]]></phrase>
+  <phrase title="xfm_resource_x_version_y" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[<a href="{resourceLink}">{resourceTitle}</a> الإصدار {version}]]></phrase>
   <phrase title="xfrm_above_resource_description" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[أعلى وصف المنتج]]></phrase>
+  <phrase title="xfrm_above_resource_rating" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[أعلى تقيم المنتج]]></phrase>
   <phrase title="xfrm_above_review" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[أعلى المراجعة]]></phrase>
   <phrase title="xfrm_add_members" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[إضافة أعضاء]]></phrase>
   <phrase title="xfrm_add_resource" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[أضف منتج]]></phrase>
@@ -180,19 +184,22 @@
   <phrase title="xfrm_approve_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الموافقة على المنتجات]]></phrase>
   <phrase title="xfrm_automatically_create_thread_in_forum" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إنشاء موضوع تلقائيا في المنتدى]]></phrase>
   <phrase title="xfrm_automatically_created_thread_prefix" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إنشاء بادئة موضوع تلقائياً]]></phrase>
+  <phrase title="xfrm_automatically_feature_resources_posted_in_this_category" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تمييز المنتجات المنشورة في هذا القسم تلقائياً]]></phrase>
   <phrase title="xfrm_automatically_post_in_resource_thread_on_resource_deletion" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[نشر مشاركة تلقائياً في موضوع المنتج في حالة حذف المنتج]]></phrase>
   <phrase title="xfrm_below_resource_description" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[أسفل وصف المنتج]]></phrase>
+  <phrase title="xfrm_below_resource_rating" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[أسفل تقييم المنتج]]></phrase>
   <phrase title="xfrm_below_review" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[أسفل المراجعة]]></phrase>
+  <phrase title="xfrm_below_sidebar_buttons" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[أسفل أزرار الشريط الجانبي]]></phrase>
   <phrase title="xfrm_buy_for_x" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[اشتر بـ {price}]]></phrase>
   <phrase title="xfrm_cannot_update_rating_once_author_response" addon_id="XFRM" version_id="2000170" version_string="2.0.1"><![CDATA[لا يمكنك تحديث التقييم أو المراجعة بعد رد الناشر.]]></phrase>
-  <phrase title="xfrm_carousel" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[سلايدر]]></phrase>
-  <phrase title="xfrm_carousel_view_displaying_resources_in_slider" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[عرض مستمر، يعرض المنتجات في سلايدر. هذا العرض غير مصمم لمواضع الشريط الجانبي.]]></phrase>
+  <phrase title="xfrm_categories" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[الأقسام]]></phrase>
   <phrase title="xfrm_category_limit" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[حد القسم]]></phrase>
   <phrase title="xfrm_category_not_allow_new_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[لا يسمح هذا القسم بمنتجات جديدة.]]></phrase>
   <phrase title="xfrm_category_permissions" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[تصاريح القسم]]></phrase>
   <phrase title="xfrm_category_watched" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[قسم متابع]]></phrase>
   <phrase title="xfrm_change_discussion_thread" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[تغيير موضوع المناقشة]]></phrase>
   <phrase title="xfrm_change_resource_type" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[تغيير نوع المنتج]]></phrase>
+  <phrase title="xfrm_changing_forums_type_additional_important_warning_desc" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تم تعيين هذا المنتدى لقسم من المتجر وقد يحتوي على مواضيع منتجات. قد يؤدي تغيير النوع إلى أي شيء بخلاف "المناقشة العامة" إلى فقدان مواضيع المنتجات الحالية لارتباطها بعناصر المتجر.]]></phrase>
   <phrase title="xfrm_choose_file" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[اختر الملف]]></phrase>
   <phrase title="xfrm_creation_date" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تاريخ الإنشاء]]></phrase>
   <phrase title="xfrm_creator" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[المنشئ]]></phrase>
@@ -208,6 +215,7 @@
   <phrase title="xfrm_disconnect_existing_discussion" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[فصل المناقشة الموجودة]]></phrase>
   <phrase title="xfrm_discussion" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[مناقشة]]></phrase>
   <phrase title="xfrm_discussion_thread_url" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[رابط موضوع المناقشة]]></phrase>
+  <phrase title="xfrm_disk_usage" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[استخدام القرص]]></phrase>
   <phrase title="xfrm_do_not_have_permission_to_view_full_content_of_this_resource" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[ليس لديك تصريح لعرض المحتوى الكامل لهذا المنتج.]]></phrase>
   <phrase title="xfrm_does_not_have_file" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لا يوجد ملف]]></phrase>
   <phrase title="xfrm_download_is_not_available_try_another" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[هذا التنزيل غير متوفر. الرجاء المحاولة مع آخر.]]></phrase>
@@ -224,8 +232,8 @@
   <phrase title="xfrm_external_purchase_url" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[رابط الشراء الخارجي]]></phrase>
   <phrase title="xfrm_extra_info" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[معلومات إضافية]]></phrase>
   <phrase title="xfrm_extra_information_tab" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[علامة تبويب معلومات إضافية]]></phrase>
+  <phrase title="xfrm_feature_resource" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تمييز المنتج]]></phrase>
   <phrase title="xfrm_feature_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تمييز المنتجات]]></phrase>
-  <phrase title="xfrm_featured" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[مميز]]></phrase>
   <phrase title="xfrm_featured_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[المنتجات المميزة]]></phrase>
   <phrase title="xfrm_fileless" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[بدون ملف]]></phrase>
   <phrase title="xfrm_first_release" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الإصدار الأول]]></phrase>
@@ -234,13 +242,14 @@
   <phrase title="xfrm_full_size_view_displaying_as_standard_resource_list" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[عرض بالحجم الكامل، يتم عرضه كقائمة المنتجات القياسية.]]></phrase>
   <phrase title="xfrm_get_support" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الحصول على الدعم]]></phrase>
   <phrase title="xfrm_go_to_download" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[إذهب للتحميل]]></phrase>
+  <phrase title="xfrm_if_enabled_this_field_will_not_be_shown_anywhere_by_default_but_it_will" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[إذا تم تمكين هذا الخيار، افتراضيا لن يتم عرض هذا الحقل في أي مكان، ولكنه سيظل قابلاً للتحرير.]]></phrase>
   <phrase title="xfrm_if_enabled_users_given_option_enter_support_url" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[في حالة التمكين، سيتم منح المستخدمين خياراً لإدخال عنوان URL حيث سيتم دعم منتجهم.]]></phrase>
   <phrase title="xfrm_if_enabled_users_prompted_enter_version_history_displayed" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إذا تم تمكينه، سيطلب من المستخدمين إدخال رقم إصدار وسيتم عرض سجل الإصدارات السابقة.]]></phrase>
   <phrase title="xfrm_if_need_new_version_post_update" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إذا كنت بحاجة إلى إصدار نسخة جديدة من هذا المنتج، فيجب عليك <a href="{link}"> نشر تحديث</a>.]]></phrase>
   <phrase title="xfrm_if_no_resource_types_selected_category_maintain_hierarchy" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إذا لم يتم تحديد أي نوع من أنواع المنتجات، سيتم استخدام هذا القسم للحفاظ على التسلسل الهرمي للأقسام فقط.]]></phrase>
   <phrase title="xfrm_if_selected_only_staff_will_be_able_to_see_who_wrote_this_review" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إذا تم تحديده، فإن المسؤولين فقط سيكونون قادرين على معرفة من الذي كتب هذه المراجعة.]]></phrase>
   <phrase title="xfrm_if_selected_post_made_automatically_explaining_resource_unavailable" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[في حالة تحديده، سيتم إنشاء مشاركة تلقائيا بالنيابة عن صاحب المنتج توضح أن المنتج لم يعد متوفراً.]]></phrase>
-  <phrase title="xfrm_if_selected_resource_in_category_created_thread_posted_forum" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إذا تم تحديدها، كلما تم إنشاء منتج في هذا القسم، فسيتم نشر موضوع في هذا المنتدى.]]></phrase>
+  <phrase title="xfrm_if_selected_resource_in_category_created_thread_posted_forum" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[إذا تم تحديد هذا الخيار، فسيتم نشر موضوع في هذا المنتدى عند إنشاء منتج ضمن هذا القسم. يمكن تحديد المنتديات من نوع "المناقشة العامة" فقط.]]></phrase>
   <phrase title="xfrm_if_selected_users_required_select_prefix_when_creating_editing" addon_id="XFRM" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[إذا تم تحديدها، فسيطلب من المستخدمين تحديد بادئة عند إنشاء منتج أو تحريره. لن يتم فرض ذلك على المسؤولين.]]></phrase>
   <phrase title="xfrm_if_you_have_specific_location_where_you_will_be_providing_support_or" addon_id="XFRM" version_id="2010051" version_string="2.1.0 Release Candidate 1"><![CDATA[إذا كان لديك موقع معين حيث ستقدم هناك الدعم أو الإجابة عن الأسئلة، يرجى إدخال الرابط الخاص به هنا.]]></phrase>
   <phrase title="xfrm_include_resource_updates" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تضمين تحديثات المنتج]]></phrase>
@@ -260,7 +269,6 @@
   <phrase title="xfrm_new_content" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[محتوى جديد]]></phrase>
   <phrase title="xfrm_new_icon_could_not_be_applied_try_later" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[تعذر تطبيق الرمز الجديد. الرجاء معاودة المحاولة في وقت لاحق.]]></phrase>
   <phrase title="xfrm_new_owner" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[مالك جديد]]></phrase>
-  <phrase title="xfrm_new_owner_must_be_able_to_view_this_resource" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[يجب أن يكون المالك الجديد قادرا على عرض هذا المنتج.]]></phrase>
   <phrase title="xfrm_new_resource_discussion_thread_must_be_standard_thread" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[يجب أن يكون موضوع مناقشة المنتج الجديد عادياً.]]></phrase>
   <phrase title="xfrm_new_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[منتجات جديدة]]></phrase>
   <phrase title="xfrm_new_resources_and_updates" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[منتجات وتحديثات جديدة]]></phrase>
@@ -276,10 +284,12 @@
   <phrase title="xfrm_no_resources_to_display" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لا توجد منتجات للعرض.]]></phrase>
   <phrase title="xfrm_no_review_provided" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[لم يتم تقديم أي مراجعة.]]></phrase>
   <phrase title="xfrm_no_reviews_have_been_left_recently" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[لم يتم ترك أية تعليقات مؤخرا.]]></phrase>
+  <phrase title="xfrm_no_reviews_yet" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[لا توجد أي مراجعات حتى الآن.]]></phrase>
   <phrase title="xfrm_non_purchasable_resources_may_not_define_purchasable_components" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[قد لا تتضمن المنتجات الغير القابلة للشراء المكونات القابلة للشراء.]]></phrase>
   <phrase title="xfrm_notify_current_and_new_owners_of_this_action" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إشعار المالكين الحاليين والجدد بهذا الإجراء.]]></phrase>
   <phrase title="xfrm_notify_members_watching_destination_category" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إشعار الأعضاء المتابعين بالفئة الوجهة]]></phrase>
   <phrase title="xfrm_only_include_resources_with" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[فقط تضمين المنتجات مع]]></phrase>
+  <phrase title="xfrm_optimize_icons" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تحسين الأيقونات]]></phrase>
   <phrase title="xfrm_own_tab" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[التبويب الخاص به]]></phrase>
   <phrase title="xfrm_page_is_within_resource_categories" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[الصفحة ضمن أقسام المتجر]]></phrase>
   <phrase title="xfrm_paid" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[مدفوع]]></phrase>
@@ -322,14 +332,15 @@
   <phrase title="xfrm_resource_features" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[ميزات المنتج]]></phrase>
   <phrase title="xfrm_resource_fields" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[حقول المتجر]]></phrase>
   <phrase title="xfrm_resource_icon" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إيقونة المنتج]]></phrase>
+  <phrase title="xfrm_resource_icons" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[ايقونات المنتج]]></phrase>
   <phrase title="xfrm_resource_prefixes" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[بادئات المتجر]]></phrase>
-  <phrase title="xfrm_resource_quick_feature" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تمييز المنتج]]></phrase>
-  <phrase title="xfrm_resource_quick_unfeature" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إلغاء تمييز المنتج]]></phrase>
   <phrase title="xfrm_resource_rating" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تقييم المنتج]]></phrase>
   <phrase title="xfrm_resource_ratings" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تقييمات المنتج]]></phrase>
   <phrase title="xfrm_resource_reactions" addon_id="XFRM" version_id="2010011" version_string="2.1.0 Preview 1"><![CDATA[تفاعلات المنتج]]></phrase>
   <phrase title="xfrm_resource_review_fields" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[حقول مراجعة المنتج]]></phrase>
   <phrase title="xfrm_resource_review_in_x" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[مراجعة منتج في '{title}']]></phrase>
+  <phrase title="xfrm_resource_review_votes" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تقييمات مراجعة المنتج]]></phrase>
+  <phrase title="xfrm_resource_statistics" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[إحصائيات المتجر]]></phrase>
   <phrase title="xfrm_resource_team" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[فريق المنتج]]></phrase>
   <phrase title="xfrm_resource_thread_create" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[قام {username} بتقديم منتج جديد:
 
@@ -353,6 +364,7 @@
   <phrase title="xfrm_resource_updates" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تحديثات المنتج]]></phrase>
   <phrase title="xfrm_resource_version" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إصدار المنتج]]></phrase>
   <phrase title="xfrm_resource_version_in_x" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إصدار المنتج في '{title}']]></phrase>
+  <phrase title="xfrm_resource_versions" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[إصدارات المنتج]]></phrase>
   <phrase title="xfrm_resource_watched" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[منتج متابع]]></phrase>
   <phrase title="xfrm_resource_x" addon_id="XFRM" version_id="2010011" version_string="2.1.0 Preview 1"><![CDATA[المنتج '{title}']]></phrase>
   <phrase title="xfrm_resource_x_new_watched_category" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[{resource} - منتج جديد في القسم الذي تتابعه]]></phrase>
@@ -363,7 +375,6 @@
   <phrase title="xfrm_resources_by_x" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[منتجات بواسطة {name}]]></phrase>
   <phrase title="xfrm_response_by" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[رد بواسطة]]></phrase>
   <phrase title="xfrm_review_for_x" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[مراجعة لـ '{title}']]></phrase>
-  <phrase title="xfrm_review_is_required" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[المراجعة مطلوبة.]]></phrase>
   <phrase title="xfrm_reviews" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[المراجعات]]></phrase>
   <phrase title="xfrm_search_child_categories_as_well" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[البحث في الفئات الفرعية كذلك]]></phrase>
   <phrase title="xfrm_search_in_categories" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[البحث في الأقسام]]></phrase>
@@ -372,6 +383,7 @@
   <phrase title="xfrm_stop_notification_emails_from_all_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إيقاف رسائل البريد الإلكتروني للإشعارات من كافة المنتجات]]></phrase>
   <phrase title="xfrm_submission_date" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تاريخ النشر]]></phrase>
   <phrase title="xfrm_submit_review_anonymously" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إرسال تعليق مجهول]]></phrase>
+  <phrase title="xfrm_superseded" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[تم استبداله]]></phrase>
   <phrase title="xfrm_tag_line" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[سطر الوصف]]></phrase>
   <phrase title="xfrm_team_member" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[عضو الفريق]]></phrase>
   <phrase title="xfrm_team_members_not_displayed_publicly" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[لا يتم عرض أعضاء الفريق بشكل عام، باستثناء المشرفين وأعضاء الفريق أنفسهم.]]></phrase>
@@ -381,6 +393,7 @@
   <phrase title="xfrm_there_no_reviews_matching_your_filters" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[لا توجد مراجعات مطابقة لتصفياتك.]]></phrase>
   <phrase title="xfrm_this_category" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[هذا القسم]]></phrase>
   <phrase title="xfrm_this_resource_is_not_versioned" addon_id="XFRM" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[لم يتم تعيين إصدار لهذا المنتج.]]></phrase>
+  <phrase title="xfrm_this_user_has_left_more_recent_review" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[لقد أدرج هذا المستخدم مراجعة أحدث]]></phrase>
   <phrase title="xfrm_top_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[أهم المنتجات]]></phrase>
   <phrase title="xfrm_unapprove_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[عدم الموافقة على المنتجات]]></phrase>
   <phrase title="xfrm_undelete_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[إلغاء حذف المنتجات]]></phrase>
@@ -392,7 +405,6 @@
   <phrase title="xfrm_update_thread_title_on_resource_deletion" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[تحديث عنوان الموضوع عند حذف المنتج]]></phrase>
   <phrase title="xfrm_update_title" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[عنوان التحديث]]></phrase>
   <phrase title="xfrm_update_to_resource_x" addon_id="XFRM" version_id="2010011" version_string="2.1.0 Preview 1"><![CDATA[تحديث إلى <a href="{resourceLink}">{resourceTitle}</a> في القسم <a href="{categoryLink}">{categoryTitle}</a>]]></phrase>
-  <phrase title="xfrm_update_x_in_resource_y" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تحديث '{title}' بالمنتج '{resource}']]></phrase>
   <phrase title="xfrm_updates" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تحديثات]]></phrase>
   <phrase title="xfrm_upload_custom_icon" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تحميل إيقونة مخصصة]]></phrase>
   <phrase title="xfrm_upload_new_icon" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تحميل إيقونة جديدة]]></phrase>
@@ -401,8 +413,9 @@
   <phrase title="xfrm_user_has_submitted_at_least_x_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[المستخدم قدم X منتج على الأقل]]></phrase>
   <phrase title="xfrm_version" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الإصدار]]></phrase>
   <phrase title="xfrm_version_number" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[رقم الإصدار]]></phrase>
-  <phrase title="xfrm_view_all_featured_resources" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[عرض كافة المنتجات المميزة]]></phrase>
+  <phrase title="xfrm_view_resource" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[عرض المتجر]]></phrase>
   <phrase title="xfrm_view_this_resource" addon_id="XFRM" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[عرض هذا المنتج]]></phrase>
+  <phrase title="xfrm_viewable_on_resource_pages" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[يمكن عرضها على صفحات المتجر]]></phrase>
   <phrase title="xfrm_viewing_resource" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[يشاهد المنتج]]></phrase>
   <phrase title="xfrm_viewing_resource_category" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[يشاهد قسم المتجر]]></phrase>
   <phrase title="xfrm_viewing_resources" addon_id="XFRM" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[يشاهد المتجر]]></phrase>
@@ -465,6 +478,7 @@
   <phrase title="xfrm_your_review_for_x_was_deleted" addon_id="XFRM" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[مراجعتك للمنتج {title} قد تم حذفها.]]></phrase>
   <phrase title="xfrm_your_review_must_be_at_least_x_characters" addon_id="XFRM" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[يجب أن تكون مراجعتك بـ {min} حرفا على الأقل.]]></phrase>
   <phrase title="xfrm_your_review_to_resource_x_was_submitted" addon_id="XFRM" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[تم إرسال مراجعتك على المنتج {title}.]]></phrase>
+  <phrase title="xfrm_your_statistics" addon_id="XFRM" version_id="2030070" version_string="2.3.0"><![CDATA[إحصائياتك]]></phrase>
   <phrase title="xfrm_your_update_x_for_y_was_deleted" addon_id="XFRM" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[تحديثك {update} للمنتج {resource} قد تم حذفه.]]></phrase>
   <phrase title="xfrm_your_update_x_for_y_was_edited" addon_id="XFRM" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[تحديثك {update} للمنتج {resource} قد تم تعديله.]]></phrase>
   <phrase title="you_sure_you_want_to_stop_watching_all_resources" addon_id="XFRM" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[هل تريد فعلا التوقف عن متابعة <b>كافة</b> المنتجات؟]]></phrase>
